@@ -5,31 +5,31 @@ app.use(express.json());
 
 const jadwalBelajar = {
   senin: [
-    { jam: "08.00 - 09.00", mapel: "Agama" },
-    { jam: "09.00 - 10.00", mapel: "DDA" }
+    { jam: "08.10 - 10.10", mapel: "Agama" },
+    { jam: "10.40 - 15.00", mapel: "DDA" }
   ],
   selasa: [
-    { jam: "08.00 - 09.00", mapel: "PJOK" },
-    { jam: "09.00 - 10.00", mapel: "MTK" },
-    { jam: "10.30 - 11.30", mapel: "IPAS" }
+    { jam: "07.30 - 08.10", mapel: "PJOK" },
+    { jam: "09.30 - 13.20", mapel: "MTK" },
+    { jam: "13.40 - 15.40", mapel: "IPAS" }
   ],
   rabu: [
-    { jam: "08.00 - 09.00", mapel: "Sejarah" },
-    { jam: "09.00 - 10.00", mapel: "DDA" },
-    { jam: "10.30 - 11.30", mapel: "KKA" }
+    { jam: "07.30 - 08.50", mapel: "Sejarah" },
+    { jam: "08.50 - 13.20", mapel: "DDA" },
+    { jam: "13.40 - 15.00", mapel: "KKA" }
   ],
   kamis: [
-    { jam: "08.00 - 09.00", mapel: "Bahasa Indonesia" },
-    { jam: "09.00 - 10.00", mapel: "KKA" },
-    { jam: "10.30 - 11.30", mapel: "Bahasa Inggris" },
-    { jam: "11.30 - 12.30", mapel: "BK" }
+    { jam: "07.30 - 08.50", mapel: "Bahasa Indonesia" },
+    { jam: "08.50 - 12.00", mapel: "KKA" },
+    { jam: "12.00 - 15.00", mapel: "Bahasa Inggris" },
+    { jam: "15.00 - 15.40", mapel: "BK" }
   ],
   jumat: [
-    { jam: "08.00 - 09.00", mapel: "Seni Budaya" },
-    { jam: "09.00 - 10.00", mapel: "PPKN" },
-    { jam: "10.30 - 11.30", mapel: "Bahasa Indonesia" },
-    { jam: "11.30 - 12.30", mapel: "Bahasa Bali" },
-    { jam: "13.00 - 14.00", mapel: "MTK" }
+    { jam: "08.10 - 09.30", mapel: "Seni Budaya" },
+    { jam: "09.30 - 11.20", mapel: "PPKN" },
+    { jam: "11.20 - 12.40", mapel: "Bahasa Indonesia" },
+    { jam: "12.40 - 14.20", mapel: "Bahasa Bali" },
+    { jam: "14.20 - 15.40", mapel: "MTK" }
   ]
 };
 
